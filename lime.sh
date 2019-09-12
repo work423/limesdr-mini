@@ -14,8 +14,6 @@ apt-key add Release.key
 echo "deb http://download.opensuse.org/repositories/network:/osmocom:/nightly/xUbuntu_18.04/ ./" > /etc/apt/sources.list.d/osmocom-nightly.list
 sudo apt-get update
 sudo apt-get -y install osmocom-nitb osmo-trx-lms osmo-bts-trx
-wget https://raw.githubusercontent.com/dartdart26/sdr/master/osmo-nitb-limesdr/openbsc.cfg
-wget https://raw.githubusercontent.com/dartdart26/sdr/master/osmo-nitb-limesdr/osmo-bts.cfg
 systemctl disable osmo-bts-trx.service
 systemctl disable osmo-nitb.service
 
