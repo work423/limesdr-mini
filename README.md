@@ -2,7 +2,8 @@ limesdr-mini
 Running osmo-nitb on LimeSDR-Mini Ubuntu 18.04
 
 Download lime.sh and run it as root user
-Open 3 terminals to run eche command separate
+Open 3 terminals to run each command separate
+
 osmo-trx-lms -r 1 -c osmo-trx.cfg
 
 osmo-nitb -c openbsc.cfg
